@@ -1,0 +1,22 @@
+<div class="container">
+  <center><h1>Welcome to the Frank Sinatra fanclub</h1>
+  <p><i>Let me Fly you to the Moon</i></p><br><hr>
+  <p>Please enter an email and password to register:</p>
+
+  <form action="/users" method="post" >
+  Email Address<br>
+  <input type="text" name="email" ><br><br>
+Password<br>
+  <input type="text" name="password" ><br><br>
+  <input type="submit" value="Submit" ><br>
+  <br>
+</form>
+<br><hr>
+<p>If you have already registered, please login here instead:</p>
+<form action="/login" method="get">
+    Email Address<br><input type="text" name="email" ><br><br>
+    Password<br><input type="text" name="password" ><br><br>
+  <input type="submit" value="Login" ><br>
+  <br>
+</center>
+</div>
